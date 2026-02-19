@@ -6,9 +6,9 @@ frontend/out/
 
 # ── Backend ───────────────────────────────────────────────
 backend/.env
-backend/*.db
-backend/*.db-shm
-backend/*.db-wal
+*.db
+*.db-shm
+*.db-wal
 backend/.venv/
 
 # ── Byte-compiled / optimized / DLL files
