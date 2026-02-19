@@ -1,4 +1,17 @@
-# Byte-compiled / optimized / DLL files
+# ── Node / Next.js ───────────────────────────────────────
+node_modules/
+.next/
+frontend/.env.local
+frontend/out/
+
+# ── Backend ───────────────────────────────────────────────
+backend/.env
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+backend/.venv/
+
+# ── Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
